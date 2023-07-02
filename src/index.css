@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  min-width: 250px;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+.header {
+  background-color: #46a2cd;
+  padding: 30px 40px;
+  color: white;
+  text-align: center;
+}
+
+
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.smruti {
+  margin: 0;
+  border:2px solid rgb(246, 195, 195);
+  height: 60px;
+  width: 75%;
+  padding: 10px;
+  margin-left: 10%;
+  font-size: 16px;
+}
+
+
+.addBtn {
+  padding: 10px;
+  width: 16%;
+  background: #ba1414;
+  color: #555;
+  float: right;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+}
+
+.addBtn:hover {
+  background-color: #bbb;
+}
+
+
+.addBt {
+  padding: 10px;
+  width: 25%;
+  background: #67bf6d;
+  color: #555;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+  margin-left: 35%;
+}
+.addBt:hover {
+  background-color: #bbb;
+}
